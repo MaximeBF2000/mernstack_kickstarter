@@ -1,0 +1,24 @@
+{
+  "name": "expense_tracker",
+  "version": "1.0.0",
+  "description": "MERN stack project",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "node-sass": "^4.13.1",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Maxime BOUNAAS",
+  "license": "ISC"
+}
